@@ -205,6 +205,6 @@ foreach (object::all() as $object) {
 </div>
 
 </div>
-
+<!--suppresion d'un div -->
 <?php include_file('desktop', 'testsbo', 'js', 'testsbo');?>
 <?php include_file('core', 'plugin.template', 'js');?>
