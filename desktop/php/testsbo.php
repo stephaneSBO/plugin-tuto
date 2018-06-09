@@ -66,6 +66,8 @@ foreach ($eqLogics as $eqLogic) {
   <div class="tab-content" style="height:calc(100% - 50px);overflow:auto;overflow-x: hidden;"><!-- Div de configuration-->
     <div role="tabpanel" class="tab-pane active" id="eqlogictab"><!--Div de l'onglet equipement -->
       <br/>
+		  <div class='row'>
+			  <div class="col-sm-6">
     <form class="form-horizontal"><!--formulaire horizontal -->
         <fieldset>
             <div class="form-group"><!--formulaire défault (vertical) -->
@@ -186,8 +188,8 @@ foreach (object::all() as $object) {
     </form>
 </div>
 </div>
-
-
+</div>
+</div>
 
 <!-- END Section de configuration d'un équipement-->
       <div role="tabpanel" class="tab-pane" id="commandtab"><!-- Onglet de l'onglet commande -->
