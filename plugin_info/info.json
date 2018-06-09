@@ -1,7 +1,7 @@
 {
 	"id" : "testsbo",
 	"name" : "Test SBO",
-	"description" : "Plugin test SBO",
+	"description" : "Plugin test SBO 2",
 	"licence" : "AGPL",
 	"author" : "Jeedom SAS",
 	"require" : "3.2",
