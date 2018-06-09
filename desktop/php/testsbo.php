@@ -116,6 +116,7 @@ foreach (object::all() as $object) {
             <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="city" placeholder="param1"/><!-- input type text : pour champs de saisie texte/datal1key:clé primaire de configuration/data-l2key:clé secondaire/placeholder:description dans la zone de saisie-->
 	<!-- c'est moche, voir plus tard -->
 	 </div>
+	  </div>
 	<div class="form-group">
 	 <label class="col-sm-3 control-label">{{Mode d'envoi}}</label>
 		<div class="col-sm-4">
