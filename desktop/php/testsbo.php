@@ -64,6 +64,7 @@
         <li role="presentation" class="active"><a href="#eqlogictab" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-tachometer"></i> {{Equipement}}</a></li><!-- Onglet Equipement-->
         <li role="presentation"><a href="#commandtab" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-list-alt"></i> {{Commandes}}</a></li><!-- Onglet Commandes-->
       </ul>
+
       <div class="tab-content" style="height:calc(100% - 50px);overflow:auto;overflow-x: hidden;"><!-- Div de configuration-->
           <div role="tabpanel" class="tab-pane active" id="eqlogictab"><!--Div de l'onglet equipement -->
               <br/>
@@ -77,8 +78,6 @@
                                   <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" /><!-- Retourne l’id(unique) de l’eqLogic(équipement) . Qu’on va pouvoir récupérer via $this->getId()-->
                                   <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement template}}"/><!--description dans le champ de saisie -->
                               </div>
-                          </div>
-                          <div class="form-group">
                               <label class="col-sm-3 control-label" >{{Objet parent}}</label><!--Titre pour la champ objet parent -->
                               <div class="col-sm-3">
                                   <select id="sel_object" class="eqLogicAttr form-control" data-l1key="object_id"><!--sel_object:liste déroulante des objets Jeedom -->
@@ -131,7 +130,7 @@
                       </fieldset>
                   </form>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                   <form class="form-horizontal">
                       <fieldset>
                           <div class='sendMode sendmail' style="display: none;">
@@ -206,6 +205,7 @@
                   </tbody>
               </table>
           </div>
+      </div>
       </div>
     </div>
 </div>
