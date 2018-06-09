@@ -186,7 +186,7 @@ foreach (object::all() as $object) {
     </form>
 </div>
 </div>
-</div>
+
 
 
 <!-- END Section de configuration d'un équipement-->
@@ -203,7 +203,7 @@ foreach (object::all() as $object) {
 </table>
 </div>
 </div>
-
+</div>
 </div>
 <!--suppresion d'un div -->
 <?php include_file('desktop', 'testsbo', 'js', 'testsbo');?>
