@@ -41,7 +41,7 @@ foreach ($eqLogics as $eqLogic) {
   </div>
   <legend><i class="fa fa-table"></i> {{Mes templates}}</legend><!-- Titre  de la section équipement-->
 <div class="eqLogicThumbnailContainer"><!-- Div de la section mes équipements-->
-    <?php // Affichage d'un icone par équipement  
+    <?php // Affichage d'un icone par équipement
 foreach ($eqLogics as $eqLogic) {
 	$opacity = ($eqLogic->getIsEnable()) ? '' : jeedom::getConfiguration('eqLogic:style:noactive');
 	echo '<div class="eqLogicDisplayCard cursor" data-eqLogic_id="' . $eqLogic->getId() . '" style="text-align: center; background-color : #ffffff; height : 200px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;' . $opacity . '" >';
@@ -204,7 +204,6 @@ foreach (object::all() as $object) {
 </div>
 </div>
 
-</div>
 </div>
 
 <?php include_file('desktop', 'testsbo', 'js', 'testsbo');?>
